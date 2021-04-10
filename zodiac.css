@@ -1,0 +1,323 @@
+main {
+  background-color: #f5f5f5;
+}
+
+main .zodiacs {
+  margin-bottom: 10px;
+}
+
+main .zodiacs .box-zodiac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  overflow-x: auto;
+  padding: 15px;
+}
+
+main .zodiacs .box-zodiac a {
+  min-width: 86px;
+  color: #6f6f6f;
+}
+
+main .zodiacs .box-zodiac a:hover {
+  text-decoration: none;
+  color: #dc1435;
+}
+
+main .zodiacs .box-zodiac a img {
+  width: 48px;
+}
+
+main .zodiacs .box-zodiac a .infor-zodiac {
+  font-size: 12px;
+}
+
+main .content-zodiac .container {
+  padding: 15px;
+}
+
+main .content-zodiac .content-left .site-map ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content-zodiac .content-left .site-map ul .site-map-item a {
+  color: #6f6f6f;
+}
+
+main .content-zodiac .content-left .site-map ul .site-map-item:not(:first-child)::before {
+  padding: 0 5px;
+  color: #6f6f6f;
+  content: "/ ";
+}
+
+main .content-zodiac .content-left .page-head-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  font-size: 26px;
+  -webkit-box-orient: vertical;
+  line-height: 1.4;
+}
+
+main .content-zodiac .content-left .page-content {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .content-zodiac .content-left .page-content .new-wrap a:hover {
+  text-decoration: none;
+}
+
+main .content-zodiac .content-left .page-content .new-wrap a:hover .post-title {
+  text-decoration: none;
+  color: #dc1435;
+}
+
+main .content-zodiac .content-left .page-content .new-wrap img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+main .content-zodiac .content-left .page-content .new-wrap .infor-new .post-title {
+  color: #323232;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .content-zodiac .content-left .page-content .new-wrap .infor-new .post-sapo {
+  font-size: 15px;
+  color: #323232;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li:last-child {
+  border: 0;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li a {
+  color: #323232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li a:hover {
+  text-decoration: none;
+  color: #dc1435;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li a img {
+  width: 120px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+main .content-zodiac .content-left .page-content .other-new .list-other-new li a .description {
+  font-size: 13px;
+  text-align: left;
+}
+
+main .content-zodiac .content-left .post-list {
+  padding: 15px 0;
+}
+
+main .content-zodiac .content-left .post-list .other-news {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .content-zodiac .content-left .post-list .other-news a {
+  color: #323232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content-zodiac .content-left .post-list .other-news a:hover {
+  text-decoration: none;
+  color: #dc1435;
+}
+
+main .content-zodiac .content-left .post-list .other-news a img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+main .content-zodiac .content-left .post-list .other-news a .description .post-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .content-zodiac .navigation {
+  background: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .content-zodiac .navigation .pagination {
+  padding-right: 0;
+}
+
+main .content-zodiac .navigation .pagination .page-link {
+  color: #323232;
+}
+
+main .content-zodiac .navigation .pagination .page-link:hover {
+  background: #dc1435;
+  color: #fff;
+}
+
+main .content-zodiac .border-color {
+  border-left: 1px solid #ddd;
+}
+
+main .content-zodiac .content-right .widget {
+  background: #f5f5f5;
+  padding: 13px;
+  margin-bottom: 13px;
+}
+
+main .content-zodiac .content-right .widget .widget-title {
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .content-zodiac .content-right .widget .widget-title::before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 5px;
+  left: 0;
+  background: #dc1435;
+  top: 2px;
+}
+
+main .content-zodiac .content-right .widget .widget-title1 {
+  font-size: 20px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu .accordion_item {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu .accordion_item:last-child {
+  border: 0;
+  padding-bottom: 0;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu .accordion_item a {
+  color: #323232;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu .accordion_item a:hover {
+  text-decoration: none;
+  color: #dc1435;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu1 .accordion_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu1 .accordion_item span {
+  width: 32px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+  background: #aaa;
+  margin-right: 15px;
+  margin-top: 6px;
+  color: #fff;
+}
+
+main .content-zodiac .content-right .widget .accordion-menu1 .accordion_item a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .content-zodiac .content-right .advertisement {
+  background: #fff;
+  padding: 0;
+}
+
+main .content-zodiac .content-right .advertisement img {
+  width: 100%;
+}
+
+main .content-zodiac .content-right .advertisement .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content-zodiac .content-right .advertisement .contact .btn-contact {
+  color: #323232;
+  position: absolute;
+  bottom: 20px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+main .content-zodiac .content-right .advertisement .contact .btn-contact:hover {
+  color: #dc1435;
+  text-decoration: none;
+}
+
+main .content-zodiac .content-right .advertisement .contact .btn-contact.btn-share {
+  right: 13px;
+}
+
+main .content-zodiac .content-right .advertisement .contact .btn-contact.btn-like {
+  left: 13px;
+}
+
+@media only screen and (max-width: 962px) {
+  main .content-zodiac .content-right .advertisement {
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main .content-zodiac .content-left .page-content .other-new .list-other-new li a {
+    display: block;
+  }
+  main .content-zodiac .content-left .page-content .other-new .list-other-new li a img {
+    float: left;
+    margin-right: 5px;
+  }
+  main .content-zodiac .content-left .post-list .other-news a {
+    display: block;
+  }
+  main .content-zodiac .content-left .post-list .other-news a img {
+    float: left;
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=zodiac.css.map */

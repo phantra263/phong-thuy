@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Syne+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  background:#f5f5f5;
+
+}
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav {
+  background:rgba(235, 42, 42, 0.89);
+  width: 100%;
+ 
+}
+nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav .logo {
+  float: left;
+  color: white;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 60px;
+ 
+}
+nav .logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+  padding-right: 40px;
+}
+nav ul li {
+  float: left;
+  display: inline-block;
+ 
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover {
+  color: rgba(250, 244, 242, 0.644);
+
+  
+}
+nav ul ul li a:hover {
+  box-shadow: none;
+}
+nav ul ul {
+  position: absolute;
+  top: 90px;
+  border-top: 3px solid  rgb(255, 60, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.5s;
+}
+nav ul ul ul {
+  border-top: none;
+}
+nav ul li:hover > ul {
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  background: #b94545;
+}
+nav ul ul li {
+  position: relative;
+  margin: 0px;
+  
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgba(245, 225, 225, 0.3);
+}
+nav ul ul li a {
+  line-height: 50px;
+}
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+.show,
+.icon,
+input {
+  display: none;
+}
+.fa-plus {
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 962px) {
+  nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+  nav .logo {
+    padding-left: 30px;
+    width: 100%;
+  }
+  .show + a,ul.hide-SP {
+    display: none;
+  }
+  nav ul li,
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  nav ul li a:hover {
+    box-shadow: none;
+  }
+  .show {
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 70px;
+    cursor: pointer;
+  }
+  .show:hover {
+    color: cyan;
+  }
+  .icon {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  nav ul ul.hide-SP {
+    top: 70px;
+    border-top: 0px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+  }
+  nav ul ul a {
+    padding-left: 40px;
+  }
+  nav ul ul ul a {
+    padding-left: 80px;
+  }
+  nav ul ul ul li {
+    position: static;
+  }
+  [id^="btn"]:checked + ul {
+    display: block;
+  }
+  nav ul ul li {
+    border-bottom: 0px;
+  }
+  span.cancel:before {
+    content: "\f00d";
+  }
+
+}
+
+.container {
+  background: #fff;
+  padding-top: -8%;
+}
+
+#menu ul {
+  background: #1d2021;
+  width: 250px;
+  padding-top: 50%;
+  list-style-type: none;
+  text-align: left;
+  color: rgba(32,35,36,255);
+
+}
+h2{
+  text-indent: 30px;
+  margin-bottom: 10px;
+
+}
+p {
+  text-indent: 30px;
+}
+.main{
+  margin-top: 16px;
+  padding: 12px 16px;
+  display: flex;
+
+}
+
+.main_text_right{
+  flex:1;
+  background-color: rgba(245,245,245,255);
+  margin-left: 2%;
+  margin-right: 15%;
+
+}
+.main_text_left{
+  flex: 3;
+  background-color: rgba(255,255,255,255);
+  margin-left: 15%;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.materrial{
+  margin-top: 0.5%;
+
+  padding: 12px 16px;
+  display: flex;
+
+}
+.img{
+  flex-basis: 20%;
+
+}
+.content{
+  margin-top: 16px;
+  padding: 12px 16px;
+  display: flex;
+}
